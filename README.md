@@ -5,14 +5,20 @@ Simple frontend connected with REST API. The focus is on the implementation of a
 
 If you want to try this code on your local setup, you can simply clone this repository. You will need to create a .env file in the projects root directory and add the JWT_SECRET variable into it, something like this:
 
-JWT_SECRET=jwtSecret
+```bash
+JWT_SECRET={ YOUR SECRET }
+```
 
 After that, in the projects root directory run the command:
 
+```bash
 npm install
+```
 
 After that you can spin up the server by running:
 
+```bash
 npm start
+```
 
 Now you should be good to go.
